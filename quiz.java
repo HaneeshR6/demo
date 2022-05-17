@@ -17,6 +17,8 @@ class A
 				break;
 		}
             int count=0;
+            int total=0;
+            int sum=0;
             if(A==3){
                         count++;
                    
@@ -181,7 +183,7 @@ class A
 				System.out.println("Answered.Proceed to the next question ");
 				break;
 		}
-            int total=0;
+            
             if(AA==4){
                         total++;
                    
@@ -346,7 +348,7 @@ class A
 				System.out.println("Answered.Proceed to the next question ");
 				break;
 		}
-            int sum=0;
+            
             if(AAA==1){
                         sum++;
                    
@@ -511,6 +513,8 @@ class A
                  System.out.println("you failed the exam try retaking the exam");
                  System.out.println("your score is " +count);
                }
+                 int Z=count+total+sum;
+                 System.out.println("your total score in all three exams: " +Z);
         
 	}
 }
